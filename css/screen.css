@@ -1,0 +1,24 @@
+@import url(reset.css);
+
+body {
+    font: normal 62.5%/1 Arial, Helvetica, sans-serif;
+}
+
+a, a:active, a:hover, a:link {
+    text-decoration: none;
+}
+
+/* Tablet styles */
+@media only screen and (min-device-width: 481px) and (max-device-width: 979px) {
+    * {
+        -webkit-text-size-adjust: none;
+    }
+}
+
+/* Phone styles */
+@media only screen and (max-device-width: 480px) {
+    * {
+        -webkit-text-size-adjust: none;
+    }
+}
+
